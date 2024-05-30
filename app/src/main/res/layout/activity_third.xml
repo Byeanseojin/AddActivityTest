@@ -5,14 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ff00ff"
-    tools:context=".SecondActivity">
+    android:background="#FFE6FF"
+    tools:context=".ThirdActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="세번째 Activity 화면"
+        android:textSize="30sp"
+        android:textColor="#ffff00"/>
     <Button
-        android:id="@+id/btnSecond"
+        android:id="@+id/btnThird"
         android:layout_margin="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MainActivity 돌아가기"/>
+        android:text="MainActivity로 돌아가기"/>
 
 </LinearLayout>
